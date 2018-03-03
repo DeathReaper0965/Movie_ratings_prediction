@@ -15,7 +15,7 @@ Actors(dataset A): https://archive.ics.uci.edu/ml/machine-learning-databases/mov
 Movies(dataset M): https://archive.ics.uci.edu/ml/machine-learning-databases/movies-mld/data/main.html
 
 Used Levenshtein distance to match movie names in Kaggle Dataset with movies provided in other datasets
-Persisted the lavestein distance cutoff scores to 80(for better recommendations)
+Persisted the levenshtein distance cutoff scores to 80(for better recommendations)
 
 ## Models Implemented:
 1. SVM for multiclass prediction
